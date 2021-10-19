@@ -1,0 +1,72 @@
+
+#moi {
+    width: 20%;
+}
+
+#regrouper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#parfum, #geldouche{
+    border: 3px dotted black ;
+}
+
+.bienvenue {
+    border: 4px double black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.position {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 49.5%;
+    text-align: center;
+}
+
+.imgListe {
+    display: inline-block;
+
+}
+
+.moyen {
+    width: 200px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.moyen p {
+    width: 350px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+.retraitPuce {
+    list-style-type: none;
+}
+
+body {
+    background-color: #e8c4c4;
+}
+
+h2 {
+    text-decoration-line: underline;
+    border: 1px dashed #3f3d3f;
+    text-align: center;
+}
+
+li:nth-child(even){
+    margin-bottom: 40px;
+}
