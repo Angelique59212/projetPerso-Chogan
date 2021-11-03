@@ -1,4 +1,8 @@
 
+html {
+    font-size: 62.5%;
+}
+
 #moi {
     width: 20%;
 }
@@ -31,6 +35,7 @@
 
 .imgListe {
     display: inline-block;
+    width: 34%;
 
 }
 
@@ -64,9 +69,199 @@ body {
 h2 {
     text-decoration-line: underline;
     border: 1px dashed #3f3d3f;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#degreaser {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 37px;
+}
+
+#degreasplus {
+    display: inline-block;
+    position: relative;
+    left: 146%;
+    bottom: 324px;
+}
+
+#tailledegre {
+    width: 94px;
+}
+
+#taillesp {
+    width: 94px;
+}
+
+#splendi {
+    display: inline-block;
+    position: relative;
+    bottom: 307px;
+}
+
+#splendivetro {
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+}
+
+#mobilbrill {
+    display: inline-block;
+    position: relative;
+    bottom: 596px;
+    left: 618px;
+}
+
+#taillemo {
+    width: 81px;
+}
+
+#brill {
+    display: inline-block;
+    position: relative;
+    bottom: 207px;
+    left: 175px;
+}
+
+#tailleto {
+    width: 53%;
+}
+
+#taillepero {
+    width: 50%;
+}
+
+#bottom {
+    position: relative;
+    top: 21px;
+}
+
+#arrow {
+    font-size: 40px;
+    float: right;
+}
+
+#tailleapple {
+    width: 163px;
+}
+
+#tailleever {
+    width: 163px;
+}
+
+#tailletour {
+    width: 149px;
+}
+
+#taillemilk {
+    width: 132px;
+}
+
+#tailleflower {
+    width: 130px;
+}
+
+.inline {
+    display: inline-block;
+    width: 18%;
+    margin-left: 20px;
     text-align: center;
 }
 
-li:nth-child(even){
-    margin-bottom: 40px;
+.cadre {
+    border: thick solid black;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#foot {
+   text-align: center;
+    margin-top: 50px;
+}
+
+#taillefuga {
+    width: 112px;
+}
+
+#taillecotto {
+    width: 104px;
+}
+
+#taillestone {
+    width: 103px;
+}
+
+#tailleparquet {
+    width: 97px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#vitrine {
+    width: 400px;
+}
+
+#sdb {
+    display: inline-block;
+    position: relative;
+    bottom: 598px;
+}
+
+#container {
+    width: 100%;
+}
+
+.top {
+    display: inline-block;
+    width: 90%;
+    margin: 3.2rem 6.4rem;
+}
+
+.produce {
+    display: inline-block;
+    width: 33%;
+}
+
+#iron , #washer {
+    width: 10rem;
+}
+
+#steelbrill, #fridge, #defrost  {
+    width: 10.5rem;
+}
+
+#splendicamini {
+    width: 11.2rem;
+}
+
+#oven {
+    width: 10.2rem;
+}
+
+#washer_plus {
+    width: 11.5rem;
+}
+
+#caf {
+    width: 10.9rem;
+}
+
+.text {
+    display: inline-block;
+    width: 20rem;
+    font-size: 1.3rem;
+    float: right;
+    margin: 4.8rem 2rem;
 }
