@@ -25,6 +25,7 @@ html {
 
 .position {
     text-align: center;
+    font-size: 2rem;
 }
 
 .inline-block {
@@ -264,4 +265,31 @@ span {
     font-size: 1.3rem;
     float: right;
     margin: 4.8rem 2rem;
+}
+
+#sanipet, #sanipet_desinfectant {
+    display: inline-block;
+    width: 50%;
+    height: 50rem;
+    border: 1px solid blue;
+    margin: 7rem auto;
+}
+
+#sanipet_desinfectant {
+    width: 49%;
+    float: right;
+}
+
+.sanipet {
+    width: 33%;
+    height: 50rem;
+    border: 1px solid black;
+}
+
+#dog {
+    width: 20.6rem;
+}
+
+#desinfectant {
+    width: 20rem;
 }
