@@ -269,9 +269,7 @@ span {
 
 #sanipet, #sanipet_desinfectant {
     display: inline-block;
-    width: 50%;
     height: 50rem;
-    border: 1px solid blue;
     margin: 7rem auto;
 }
 
@@ -280,16 +278,23 @@ span {
     float: right;
 }
 
-.sanipet {
-    width: 33%;
-    height: 50rem;
-    border: 1px solid black;
+.text2 {
+    display: inline-block;
+    width: 40rem;
+    font-size: 1.8rem;
+    margin: 4.8rem 2rem;
 }
 
 #dog {
-    width: 20.6rem;
+    width: 28%;
 }
 
 #desinfectant {
-    width: 20rem;
+    width: 28%;
+}
+
+#cat {
+    width: 24%;
+    margin-left: 48rem;
+
 }
