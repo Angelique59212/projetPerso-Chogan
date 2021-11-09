@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(169, 169, 169, 0.51);
+}
+
+header {
+    background-image: url("/img/produits-menagers/top.jpg");
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-second {
+     width: 50%;
+     border: 1px solid black;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     font-size: 1.4rem;
+}
+
+span {
+     font-weight: bold;
+}
+
+.frame {
+     width: 50%;
+     border: 1px dashed black;
+}
+
+footer {
+    text-align: end;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.color {
+    color: blue;
+}

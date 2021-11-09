@@ -1,300 +1,53 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     font-size: 62.5%;
 }
 
-#moi {
-    width: 20%;
+body {
+    background: rgba(169, 169, 169, 0.51);
 }
 
-#regrouper {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
-
-#parfum, #geldouche{
-    border: 3px dotted black ;
-}
-
-.bienvenue {
-    border: 4px double black;
-    border-radius: 5px;
+.welcome {
+    border: 0.4rem double black;
+    border-radius: 0.5rem;
     text-align: center;
 }
 
 .position {
     text-align: center;
     font-size: 2rem;
-}
-
-.inline-block {
-    display: inline-block;
-    width: 49.5%;
-    text-align: center;
-}
-
-.imgListe {
-    display: inline-block;
-    width: 34%;
-
-}
-
-.moyen {
-    width: 200px;
-    display: inline-block;
-    margin-top: 50px;
-}
-
-.moyen p {
-    width: 350px;
+    padding: 0.2rem;
 }
 
 .left {
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
 }
 
 .right {
-    text-align: right;
-    float: right;
+    width: 14%;
 }
 
-.retraitPuce {
-    list-style-type: none;
-}
 
-body {
-    background-color: #e8c4c4;
-}
 
-h2 {
-    text-decoration-line: underline;
-    border: 1px dashed #3f3d3f;
-    border-radius: 10px;
-    text-align: center;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#degreaser {
-    display: inline-block;
-    position: relative;
-    left: 20px;
-    top: 37px;
-}
 
-#degreasplus {
-    display: inline-block;
-    position: relative;
-    left: 146%;
-    bottom: 324px;
-}
 
-#tailledegre {
-    width: 94px;
-}
 
-#taillesp {
-    width: 94px;
-}
 
-#splendi {
-    display: inline-block;
-    position: relative;
-    bottom: 307px;
-}
 
-#splendivetro {
-    display: inline-block;
-    position: relative;
-    bottom: 45px;
-}
 
-#mobilbrill {
-    display: inline-block;
-    position: relative;
-    bottom: 596px;
-    left: 618px;
-}
 
-#taillemo {
-    width: 81px;
-}
 
-#brill {
-    display: inline-block;
-    position: relative;
-    bottom: 207px;
-    left: 175px;
-}
 
-#tailleto {
-    width: 53%;
-}
 
-#taillepero {
-    width: 50%;
-}
 
-#bottom {
-    position: relative;
-    top: 21px;
-}
 
-#arrow {
-    font-size: 40px;
-    float: right;
-}
 
-#tailleapple {
-    width: 163px;
-}
 
-#tailleever {
-    width: 163px;
-}
-
-#tailletour {
-    width: 149px;
-}
-
-#taillemilk {
-    width: 132px;
-}
-
-#tailleflower {
-    width: 130px;
-}
-
-.inline {
-    display: inline-block;
-    width: 18%;
-    margin-left: 20px;
-    text-align: center;
-}
-
-.cadre {
-    border: thick solid black;
-    width: 50%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-}
-
-#foot {
-   text-align: center;
-    margin-top: 50px;
-}
-
-#taillefuga {
-    width: 112px;
-}
-
-#taillecotto {
-    width: 104px;
-}
-
-#taillestone {
-    width: 103px;
-}
-
-#tailleparquet {
-    width: 97px;
-}
-
-span {
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration-line: underline;
-}
-
-#vitrine {
-    width: 400px;
-}
-
-#sdb {
-    display: inline-block;
-    position: relative;
-    bottom: 598px;
-}
-
-#container {
-    width: 100%;
-}
-
-.top {
-    display: inline-block;
-    width: 90%;
-    margin: 3.2rem 6.4rem;
-}
-
-.produce {
-    display: inline-block;
-    width: 33%;
-}
-
-#iron , #washer {
-    width: 10rem;
-}
-
-#steelbrill, #fridge, #defrost  {
-    width: 10.5rem;
-}
-
-#splendicamini {
-    width: 11.2rem;
-}
-
-#oven {
-    width: 10.2rem;
-}
-
-#washer_plus {
-    width: 11.5rem;
-}
-
-#caf {
-    width: 10.9rem;
-}
-
-.text {
-    display: inline-block;
-    width: 20rem;
-    font-size: 1.3rem;
-    float: right;
-    margin: 4.8rem 2rem;
-}
-
-#sanipet, #sanipet_desinfectant {
-    display: inline-block;
-    height: 50rem;
-    margin: 7rem auto;
-}
-
-#sanipet_desinfectant {
-    width: 49%;
-    float: right;
-}
-
-.text2 {
-    display: inline-block;
-    width: 40rem;
-    font-size: 1.8rem;
-    margin: 4.8rem 2rem;
-}
-
-#dog {
-    width: 28%;
-}
-
-#desinfectant {
-    width: 28%;
-}
-
-#cat {
-    width: 24%;
-    margin-left: 48rem;
-
-}
