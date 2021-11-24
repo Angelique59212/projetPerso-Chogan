@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    background-image: url("/img/gamme_cosmetique/backanesse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+h1 {
+    font-size: 6rem;
+    text-shadow: dimgray 2px 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-second {
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.frame {
+    width: 50%;
+    border: 1px dashed black;
+}
+
+span {
+    font-weight: bold;
+}
