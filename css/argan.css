@@ -52,3 +52,9 @@ h1 {
 span {
     font-weight: bold;
 }
+
+footer {
+    text-align: end;
+    padding: 1rem;
+    font-size: 3rem;
+}

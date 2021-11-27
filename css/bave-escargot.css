@@ -56,3 +56,9 @@ span {
 li {
     list-style-type: none;
 }
+
+footer {
+    text-align: end;
+    padding: 1rem;
+    font-size: 3rem;
+}
