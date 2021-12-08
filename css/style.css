@@ -17,6 +17,10 @@ body {
     text-align: center;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 .position {
     margin: 0 auto;
     width: 20rem;
