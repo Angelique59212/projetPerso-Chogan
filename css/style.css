@@ -18,9 +18,11 @@ body {
 }
 
 .position {
+    margin: 0 auto;
+    width: 20rem;
     text-align: center;
     font-size: 2rem;
-    padding: 0.2rem;
+    padding: 1rem;
 }
 
 .left {
