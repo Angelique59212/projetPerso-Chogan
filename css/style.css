@@ -40,7 +40,15 @@ h2 {
     width: 14%;
 }
 
-
+@media screen and (max-width: 1144px) {
+    .right {
+        display: none;
+    }
+    .left {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 
