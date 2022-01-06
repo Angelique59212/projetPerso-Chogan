@@ -55,6 +55,7 @@ span {
 .frame {
     width: 50%;
     border: 1px dashed black;
+    text-align: center;
 }
 
 footer {
@@ -62,4 +63,23 @@ footer {
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+    .container-second {
+        flex-direction: column;
+    }
+
+    img {
+        width: 50%;
+    }
+    .frame {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .frame {
+        width: 100%;
+    }
 }

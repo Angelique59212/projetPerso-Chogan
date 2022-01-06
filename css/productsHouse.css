@@ -64,3 +64,22 @@ footer {
 .color {
     color: blue;
 }
+
+@media screen and (max-width: 990px) {
+    .container-second {
+        flex-direction: column;
+    }
+
+    img {
+        width: 50%;
+    }
+    .frame {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .frame {
+        width: 100%;
+    }
+}

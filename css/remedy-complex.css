@@ -58,3 +58,19 @@ footer {
     padding: 1rem;
     font-size: 3rem;
 }
+
+@media screen and (max-width: 1145px) {
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .container-second {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .frame {
+        width: 100%;
+    }
+}

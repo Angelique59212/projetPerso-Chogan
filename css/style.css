@@ -48,6 +48,10 @@ h2 {
         display: flex;
         justify-content: center;
     }
+    .position {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 

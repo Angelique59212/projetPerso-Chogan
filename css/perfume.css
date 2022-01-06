@@ -42,3 +42,11 @@ footer {
 .color {
     color: blue;
 }
+
+@media screen and (max-width: 1240px) {
+    .inline-block {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -50,3 +50,9 @@ footer {
     padding: 1rem;
     font-size: 3rem;
 }
+
+@media screen and (max-width: 910px) {
+    .container-second {
+        width: 100%;
+    }
+}

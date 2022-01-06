@@ -47,6 +47,7 @@ h1 {
 .frame {
     width: 50%;
     border: 1px dashed black;
+    text-align: center;
 }
 
 span {
@@ -57,4 +58,21 @@ footer {
     text-align: end;
     padding: 1rem;
     font-size: 3rem;
+}
+
+@media screen and (max-width: 685px){
+    .container-second {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .frame
+    {
+        width: 60%;
+    }
 }

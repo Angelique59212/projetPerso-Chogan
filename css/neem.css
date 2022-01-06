@@ -58,3 +58,14 @@ footer {
     padding: 1rem;
     font-size: 3rem;
 }
+
+
+@media screen and (max-width: 880px) {
+    .container-second {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .frame {
+        width: 100%;
+    }
+}

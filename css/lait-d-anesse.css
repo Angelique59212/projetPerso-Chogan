@@ -57,3 +57,19 @@ footer {
     padding: 1rem;
     font-size: 3rem;
 }
+
+@media screen and (max-width: 836px){
+    .container-second , #soap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #soap {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .frame {
+        width: 60%;
+    }
+}

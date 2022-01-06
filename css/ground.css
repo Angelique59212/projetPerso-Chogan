@@ -29,7 +29,7 @@ h1 {
 
 .inline {
     display: inline-block;
-    width: 18%;
+    width: 40%;
     margin-left: 2rem;
     text-align: center;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 
 #sizeEver {
-    width: 16.3rem;
+    width: 16rem;
 }
 
 #sizeTour {
@@ -50,13 +50,13 @@ h1 {
     width: 13.2rem;
 }
 
-#sizeFlower {
-    width: 13rem;
+#scent {
+    text-align: center;
 }
 
 .frame{
     border: thick solid black;
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -101,3 +101,4 @@ footer {
 .color {
     color: blue;
 }
+
