@@ -57,7 +57,7 @@ button6.addEventListener("click", ()=> {
 button7.style.fontSize = "2rem";
 button7.style.width = "25rem";
 button7.addEventListener("click", ()=> {
-    document.location = "page/aloe_vera.html";
+    document.location = "page/aloe vera.php";
 })
 
 
@@ -71,7 +71,7 @@ button8.addEventListener("click", ()=> {
 button9.style.fontSize = "2rem";
 button9.style.width = "25rem";
 button9.addEventListener("click", ()=> {
-    document.location = "page/argan.html";
+    document.location = "page/argan.php";
 })
 
 
