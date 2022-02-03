@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Remedy Complex</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<?php
+$title = "Remedy Complex";
+require __DIR__ .'/../partials/header.php'?>
     <link rel="stylesheet" href="../css/remedy-complex.css">
 
-</head>
 <body>
     <header>
         <h1>GAMME REMEDY COMPLEX</h1>
@@ -99,10 +94,5 @@
         </div>
     </main>
 
-    <footer>
-        <a class="color" href="../index.html">Index</a>
-        <a class="color" href="https://www.chogangroup.com/sign_up.php?sp=AND110">Boutique en ligne</a>
-    </footer>
-
-</body>
-</html>
+<?php
+require __DIR__ . '/../partials/footer.php';

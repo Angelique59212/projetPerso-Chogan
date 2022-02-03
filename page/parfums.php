@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Parfums inspirés de grandes marques</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../css/perfume.css">
-</head>
+<?php
+$title = "Parfums inspiré de grandes marques";
+require __DIR__ .'/../partials/header.php'?>
+<link rel="stylesheet" href="../css/perfume.css">
+
 <body>
     <h1 class="welcome"><i class="fas fa-air-freshener"></i>Les Parfums et Gel douche
         <i class="fas fa-air-freshener"></i></h1>
@@ -19,11 +15,7 @@
         </div>
     </div>
 
-    <footer>
-        <a class="color" href="../index.html">Index</a>
-        <a class="color" href="https://www.chogangroup.com/sign_up.php?sp=AND110">Boutique en ligne</a>
-    </footer>
 
+<?php
+require __DIR__ . '/../partials/footer.php';?>
 <script src="https://kit.fontawesome.com/6167e09880.js" crossorigin="anonymous"></script>
-</body>
-</html>

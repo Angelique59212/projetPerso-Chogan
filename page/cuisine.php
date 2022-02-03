@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cuisine</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../css/cuisine.css">
-</head>
+<?php
+$title = "Cuisine";
+require __DIR__ .'/../partials/header.php'?>
+<link rel="stylesheet" href="../css/cuisine.css">
+
 <body>
     <header>
         <h1>CUISINE</h1>
@@ -147,9 +143,5 @@
        </div>
     </main>
 
-    <footer>
-        <a class="color" href="../index.html">Index</a>
-        <a class="color" href="https://www.chogangroup.com/sign_up.php?sp=AND110">Boutique en ligne</a>
-    </footer>
-</body>
-</html>
+<?php
+require __DIR__ . '/../partials/footer.php';

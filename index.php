@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mon Site Chogan</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<?php
+$title = "Aloe Vera";
+require __DIR__ .'./partials/header.php'?>
+<link rel="stylesheet" href="css/style.css">
 
-</head>
 <body>
     <div class="left">
         <img src="/img/choganLogo.jpg" alt="image_chogan">

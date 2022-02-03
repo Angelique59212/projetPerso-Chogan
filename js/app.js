@@ -15,42 +15,42 @@ let button13 = document.getElementById("button13");
 button.style.fontSize = "2rem";
 button.style.width = "25rem";
 button.addEventListener("click", ()=> {
-    document.location = "page/page-presentation.html";
+    document.location = "page/page-presentation.php";
 })
 
 
 button2.style.fontSize = "2rem";
 button2.style.width = "25rem";
 button2.addEventListener("click", ()=> {
-    document.location = "page/parfums.html";
+    document.location = "page/parfums.php";
 })
 
 
 button3.style.fontSize = "2rem";
 button3.style.width = "25rem";
 button3.addEventListener("click", ()=> {
-    document.location = "page/produitMenagers.html";
+    document.location = "page/produitMenagers.php";
 })
 
 
 button4.style.fontSize = "2rem";
 button4.style.width = "25rem";
 button4.addEventListener("click", ()=> {
-    document.location = "page/sols.html";
+    document.location = "page/sols.php";
 })
 
 
 button5.style.fontSize = "2rem";
 button5.style.width = "25rem";
 button5.addEventListener("click", ()=> {
-    document.location = "page/gammes-cosmetique.html";
+    document.location = "page/gammes-cosmetique.php";
 })
 
 
 button6.style.fontSize = "2rem";
 button6.style.width = "25rem";
 button6.addEventListener("click", ()=> {
-    document.location = "page/lait-d-anesse.html";
+    document.location = "page/lait-d-anesse.php";
 })
 
 
@@ -64,7 +64,7 @@ button7.addEventListener("click", ()=> {
 button8.style.fontSize = "2rem";
 button8.style.width = "25rem";
 button8.addEventListener("click", ()=> {
-    document.location = "page/bave-escargot.html";
+    document.location = "page/bave-escargot.php";
 })
 
 
@@ -78,21 +78,21 @@ button9.addEventListener("click", ()=> {
 button10.style.fontSize = "2rem";
 button10.style.width = "25rem";
 button10.addEventListener("click", ()=> {
-    document.location = "page/neem.html";
+    document.location = "page/neem.php";
 })
 
 
 button11.style.fontSize = "2rem";
 button11.style.width = "25rem";
 button11.addEventListener("click", ()=> {
-    document.location = "page/remedy-complex.html";
+    document.location = "page/remedy-complex.php";
 })
 
 
 button12.style.fontSize = "2rem";
 button12.style.width = "25rem";
 button12.addEventListener("click", ()=> {
-    document.location = "page/formulaire.html";
+    document.location = "page/formulaire.php";
 })
 
 
