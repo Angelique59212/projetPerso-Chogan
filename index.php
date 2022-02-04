@@ -1,6 +1,6 @@
 <?php
-$title = "Aloe Vera";
-require __DIR__ .'./partials/header.php'?>
+$title = "Mon site";
+require __DIR__ .'/partials/header.php'?>
 <link rel="stylesheet" href="css/style.css">
 
 <body>
