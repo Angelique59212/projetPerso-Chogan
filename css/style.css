@@ -40,6 +40,11 @@ h2 {
     width: 14%;
 }
 
+.buttonStyle {
+    font-size: 2rem;
+    width: 25rem;
+}
+
 @media screen and (max-width: 1144px) {
     .right {
         display: none;
